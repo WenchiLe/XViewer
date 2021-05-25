@@ -1,0 +1,21 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(438,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Reading Qt configuration (D:\Qt\5.12.2\msvc2017\bin\qmake.exe)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(438,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  uic xplayvideo.ui
+  uic xviewer.ui
+  rcc xviewer.qrc
+  moc xviewer.h
+  moc xplayvideo.h
+  moc xcamera_widget.h
+  xcalendar.cpp
+  xcamera_config.cpp
+  xcamera_record.cpp
+  xcamera_widget.cpp
+  xplayvideo.cpp
+  xviewer.cpp
+  main.cpp
+  qrc_xviewer.cpp
+  moc_xviewer.cpp
+  moc_xplayvideo.cpp
+  moc_xcamera_widget.cpp
+  xviewer.vcxproj -> D:\study\media-related\ffmpeg\code\src\xviewer\..\..\bin\x86\xviewer.exe

@@ -1,0 +1,361 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(438,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  xaudio_play.cpp
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(136,20): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\thread(25): message : 参见“std::thread”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(137,18): warning C4251: “XThread::m_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251: “XAVPacketList::pkts_”: class“std::list<AVPacket *,std::allocator<_Ty>>”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         with
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         [
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:             _Ty=AVPacket *
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         ]
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message : 参见“std::list<AVPacket *,std::allocator<_Ty>>”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         with
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         [
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :             _Ty=AVPacket *
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         ]
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(177,20): warning C4251: “XAVPacketList::mux_”: class“std::mutex”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xaudio_play.h(131,31): warning C4251: “XAudioPlay::audio_datas_”: class“std::list<XData,std::allocator<_Ty>>”需要有 dll 接口由 class“XAudioPlay”的客户端使用
+D:\study\media-related\ffmpeg\code\src\xcodec\xaudio_play.h(131,31): warning C4251:         with
+D:\study\media-related\ffmpeg\code\src\xcodec\xaudio_play.h(131,31): warning C4251:         [
+D:\study\media-related\ffmpeg\code\src\xcodec\xaudio_play.h(131,31): warning C4251:             _Ty=XData
+D:\study\media-related\ffmpeg\code\src\xcodec\xaudio_play.h(131,31): warning C4251:         ]
+D:\study\media-related\ffmpeg\code\src\xcodec\xaudio_play.h(131): message : 参见“std::list<XData,std::allocator<_Ty>>”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xaudio_play.h(131): message :         with
+D:\study\media-related\ffmpeg\code\src\xcodec\xaudio_play.h(131): message :         [
+D:\study\media-related\ffmpeg\code\src\xcodec\xaudio_play.h(131): message :             _Ty=XData
+D:\study\media-related\ffmpeg\code\src\xcodec\xaudio_play.h(131): message :         ]
+D:\study\media-related\ffmpeg\code\src\xcodec\xaudio_play.h(132,17): warning C4251: “XAudioPlay::mux_”: class“std::mutex”需要有 dll 接口由 class“XAudioPlay”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xaudio_play.h(104,1): warning C4244: “*=”: 从“float”转换到“int”，可能丢失数据
+D:\study\media-related\ffmpeg\code\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\study\media-related\ffmpeg\code\src\xcodec\xaudio_play.cpp(93,19): warning C4018: “>=”: 有符号/无符号不匹配
+D:\study\media-related\ffmpeg\code\src\xcodec\xaudio_play.cpp(103,17): warning C4244: “=”: 从“__int64”转换到“double”，可能丢失数据
+D:\study\media-related\ffmpeg\code\src\xcodec\xaudio_play.cpp(107,19): warning C4244: “return”: 从“double”转换到“__int64”，可能丢失数据
+  xcodec.cpp
+D:\study\media-related\ffmpeg\code\src\xcodec\xaudio_play.cpp(132,16): warning C4091: “”: 没有声明变量时忽略“AVSampleFormat”的左侧
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(136,20): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\thread(25): message : 参见“std::thread”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(137,18): warning C4251: “XThread::m_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251: “XAVPacketList::pkts_”: class“std::list<AVPacket *,std::allocator<_Ty>>”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         with
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         [
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:             _Ty=AVPacket *
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         ]
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message : 参见“std::list<AVPacket *,std::allocator<_Ty>>”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         with
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         [
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :             _Ty=AVPacket *
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         ]
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(177,20): warning C4251: “XAVPacketList::mux_”: class“std::mutex”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xcodec.h(65,20): warning C4251: “XCodec::mux_”: class“std::mutex”需要有 dll 接口由 class“XCodec”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+  xdecode.cpp
+D:\study\media-related\ffmpeg\code\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(136,20): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\thread(25): message : 参见“std::thread”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(137,18): warning C4251: “XThread::m_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251: “XAVPacketList::pkts_”: class“std::list<AVPacket *,std::allocator<_Ty>>”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         with
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         [
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:             _Ty=AVPacket *
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         ]
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message : 参见“std::list<AVPacket *,std::allocator<_Ty>>”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         with
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         [
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :             _Ty=AVPacket *
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         ]
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(177,20): warning C4251: “XAVPacketList::mux_”: class“std::mutex”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xcodec.h(65,20): warning C4251: “XCodec::mux_”: class“std::mutex”需要有 dll 接口由 class“XCodec”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+  xdecode_task.cpp
+D:\study\media-related\ffmpeg\code\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(136,20): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\thread(25): message : 参见“std::thread”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(137,18): warning C4251: “XThread::m_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251: “XAVPacketList::pkts_”: class“std::list<AVPacket *,std::allocator<_Ty>>”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         with
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         [
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:             _Ty=AVPacket *
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         ]
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message : 参见“std::list<AVPacket *,std::allocator<_Ty>>”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         with
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         [
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :             _Ty=AVPacket *
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         ]
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(177,20): warning C4251: “XAVPacketList::mux_”: class“std::mutex”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xcodec.h(65,20): warning C4251: “XCodec::mux_”: class“std::mutex”需要有 dll 接口由 class“XCodec”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xdecode_task.h(78,20): warning C4251: “XDecodeTask::mux_”: class“std::mutex”需要有 dll 接口由 class“XDecodeTask”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xdecode_task.h(83,29): warning C4251: “XDecodeTask::frames_”: class“std::list<AVFrame *,std::allocator<_Ty>>”需要有 dll 接口由 class“XDecodeTask”的客户端使用
+D:\study\media-related\ffmpeg\code\src\xcodec\xdecode_task.h(83,29): warning C4251:         with
+D:\study\media-related\ffmpeg\code\src\xcodec\xdecode_task.h(83,29): warning C4251:         [
+D:\study\media-related\ffmpeg\code\src\xcodec\xdecode_task.h(83,29): warning C4251:             _Ty=AVFrame *
+D:\study\media-related\ffmpeg\code\src\xcodec\xdecode_task.h(83,29): warning C4251:         ]
+D:\study\media-related\ffmpeg\code\src\xcodec\xdecode_task.h(83): message : 参见“std::list<AVFrame *,std::allocator<_Ty>>”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xdecode_task.h(83): message :         with
+D:\study\media-related\ffmpeg\code\src\xcodec\xdecode_task.h(83): message :         [
+D:\study\media-related\ffmpeg\code\src\xcodec\xdecode_task.h(83): message :             _Ty=AVFrame *
+D:\study\media-related\ffmpeg\code\src\xcodec\xdecode_task.h(83): message :         ]
+  xdemux.cpp
+D:\study\media-related\ffmpeg\code\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(136,20): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\thread(25): message : 参见“std::thread”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(137,18): warning C4251: “XThread::m_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251: “XAVPacketList::pkts_”: class“std::list<AVPacket *,std::allocator<_Ty>>”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         with
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         [
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:             _Ty=AVPacket *
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         ]
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message : 参见“std::list<AVPacket *,std::allocator<_Ty>>”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         with
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         [
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :             _Ty=AVPacket *
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         ]
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(177,20): warning C4251: “XAVPacketList::mux_”: class“std::mutex”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xformat.h(98,20): warning C4251: “XFormat::mux_”: class“std::mutex”需要有 dll 接口由 class“XFormat”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+  xdemux_task.cpp
+D:\study\media-related\ffmpeg\code\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(136,20): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\thread(25): message : 参见“std::thread”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(137,18): warning C4251: “XThread::m_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251: “XAVPacketList::pkts_”: class“std::list<AVPacket *,std::allocator<_Ty>>”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         with
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         [
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:             _Ty=AVPacket *
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         ]
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message : 参见“std::list<AVPacket *,std::allocator<_Ty>>”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         with
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         [
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :             _Ty=AVPacket *
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         ]
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(177,20): warning C4251: “XAVPacketList::mux_”: class“std::mutex”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xformat.h(98,20): warning C4251: “XFormat::mux_”: class“std::mutex”需要有 dll 接口由 class“XFormat”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xdemux_task.h(66,21): warning C4251: “XDemuxTask::url_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“XDemuxTask”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(4440): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+D:\study\media-related\ffmpeg\code\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  xencode.cpp
+D:\study\media-related\ffmpeg\code\src\xcodec\xdemux_task.cpp(84,11): warning C4244: “参数”: 从“__int64”转换到“unsigned int”，可能丢失数据
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(136,20): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\thread(25): message : 参见“std::thread”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(137,18): warning C4251: “XThread::m_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251: “XAVPacketList::pkts_”: class“std::list<AVPacket *,std::allocator<_Ty>>”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         with
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         [
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:             _Ty=AVPacket *
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         ]
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message : 参见“std::list<AVPacket *,std::allocator<_Ty>>”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         with
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         [
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :             _Ty=AVPacket *
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         ]
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(177,20): warning C4251: “XAVPacketList::mux_”: class“std::mutex”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xcodec.h(65,20): warning C4251: “XCodec::mux_”: class“std::mutex”需要有 dll 接口由 class“XCodec”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+  xformat.cpp
+D:\study\media-related\ffmpeg\code\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(136,20): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\thread(25): message : 参见“std::thread”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(137,18): warning C4251: “XThread::m_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251: “XAVPacketList::pkts_”: class“std::list<AVPacket *,std::allocator<_Ty>>”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         with
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         [
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:             _Ty=AVPacket *
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         ]
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message : 参见“std::list<AVPacket *,std::allocator<_Ty>>”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         with
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         [
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :             _Ty=AVPacket *
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         ]
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(177,20): warning C4251: “XAVPacketList::mux_”: class“std::mutex”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xformat.h(98,20): warning C4251: “XFormat::mux_”: class“std::mutex”需要有 dll 接口由 class“XFormat”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\study\media-related\ffmpeg\code\src\xcodec\xformat.cpp(89,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\study\media-related\ffmpeg\code\src\xcodec\xformat.cpp(146,39): warning C4018: “>”: 有符号/无符号不匹配
+D:\study\media-related\ffmpeg\code\src\xcodec\xformat.cpp(169,39): warning C4018: “>”: 有符号/无符号不匹配
+  xmux.cpp
+D:\study\media-related\ffmpeg\code\src\xcodec\xformat.cpp(220,31): warning C4018: “>”: 有符号/无符号不匹配
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(136,20): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\thread(25): message : 参见“std::thread”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(137,18): warning C4251: “XThread::m_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251: “XAVPacketList::pkts_”: class“std::list<AVPacket *,std::allocator<_Ty>>”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         with
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         [
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:             _Ty=AVPacket *
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         ]
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message : 参见“std::list<AVPacket *,std::allocator<_Ty>>”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         with
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         [
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :             _Ty=AVPacket *
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         ]
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(177,20): warning C4251: “XAVPacketList::mux_”: class“std::mutex”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xformat.h(98,20): warning C4251: “XFormat::mux_”: class“std::mutex”需要有 dll 接口由 class“XFormat”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+  xmux_task.cpp
+D:\study\media-related\ffmpeg\code\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\study\media-related\ffmpeg\code\src\xcodec\xmux_task.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(136,20): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\thread(25): message : 参见“std::thread”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(137,18): warning C4251: “XThread::m_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251: “XAVPacketList::pkts_”: class“std::list<AVPacket *,std::allocator<_Ty>>”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         with
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         [
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:             _Ty=AVPacket *
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         ]
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message : 参见“std::list<AVPacket *,std::allocator<_Ty>>”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         with
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         [
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :             _Ty=AVPacket *
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         ]
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(177,20): warning C4251: “XAVPacketList::mux_”: class“std::mutex”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xformat.h(98,20): warning C4251: “XFormat::mux_”: class“std::mutex”需要有 dll 接口由 class“XFormat”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xmux_task.h(54,20): warning C4251: “XMuxTask::mux_”: class“std::mutex”需要有 dll 接口由 class“XMuxTask”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+  xplayer.cpp
+D:\study\media-related\ffmpeg\code\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(136,20): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\thread(25): message : 参见“std::thread”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(137,18): warning C4251: “XThread::m_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251: “XAVPacketList::pkts_”: class“std::list<AVPacket *,std::allocator<_Ty>>”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         with
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         [
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:             _Ty=AVPacket *
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         ]
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message : 参见“std::list<AVPacket *,std::allocator<_Ty>>”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         with
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         [
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :             _Ty=AVPacket *
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         ]
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(177,20): warning C4251: “XAVPacketList::mux_”: class“std::mutex”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xformat.h(98,20): warning C4251: “XFormat::mux_”: class“std::mutex”需要有 dll 接口由 class“XFormat”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xdemux_task.h(66,21): warning C4251: “XDemuxTask::url_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“XDemuxTask”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(4440): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xcodec.h(65,20): warning C4251: “XCodec::mux_”: class“std::mutex”需要有 dll 接口由 class“XCodec”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xdecode_task.h(78,20): warning C4251: “XDecodeTask::mux_”: class“std::mutex”需要有 dll 接口由 class“XDecodeTask”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xdecode_task.h(83,29): warning C4251: “XDecodeTask::frames_”: class“std::list<AVFrame *,std::allocator<_Ty>>”需要有 dll 接口由 class“XDecodeTask”的客户端使用
+D:\study\media-related\ffmpeg\code\src\xcodec\xdecode_task.h(83,29): warning C4251:         with
+D:\study\media-related\ffmpeg\code\src\xcodec\xdecode_task.h(83,29): warning C4251:         [
+D:\study\media-related\ffmpeg\code\src\xcodec\xdecode_task.h(83,29): warning C4251:             _Ty=AVFrame *
+D:\study\media-related\ffmpeg\code\src\xcodec\xdecode_task.h(83,29): warning C4251:         ]
+D:\study\media-related\ffmpeg\code\src\xcodec\xdecode_task.h(83): message : 参见“std::list<AVFrame *,std::allocator<_Ty>>”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xdecode_task.h(83): message :         with
+D:\study\media-related\ffmpeg\code\src\xcodec\xdecode_task.h(83): message :         [
+D:\study\media-related\ffmpeg\code\src\xcodec\xdecode_task.h(83): message :             _Ty=AVFrame *
+D:\study\media-related\ffmpeg\code\src\xcodec\xdecode_task.h(83): message :         ]
+D:\study\media-related\ffmpeg\code\src\xcodec\xvideo_view.h(111,20): warning C4251: “XVideoView::mtx_”: class“std::mutex”需要有 dll 接口由 class“XVideoView”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xvideo_view.h(118,23): warning C4251: “XVideoView::ifs_”: class“std::basic_ifstream<char,std::char_traits<char>>”需要有 dll 接口由 class“XVideoView”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\iosfwd(223): message : 参见“std::basic_ifstream<char,std::char_traits<char>>”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xaudio_play.h(131,31): warning C4251: “XAudioPlay::audio_datas_”: class“std::list<XData,std::allocator<_Ty>>”需要有 dll 接口由 class“XAudioPlay”的客户端使用
+D:\study\media-related\ffmpeg\code\src\xcodec\xaudio_play.h(131,31): warning C4251:         with
+D:\study\media-related\ffmpeg\code\src\xcodec\xaudio_play.h(131,31): warning C4251:         [
+D:\study\media-related\ffmpeg\code\src\xcodec\xaudio_play.h(131,31): warning C4251:             _Ty=XData
+D:\study\media-related\ffmpeg\code\src\xcodec\xaudio_play.h(131,31): warning C4251:         ]
+D:\study\media-related\ffmpeg\code\src\xcodec\xaudio_play.h(131): message : 参见“std::list<XData,std::allocator<_Ty>>”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xaudio_play.h(131): message :         with
+D:\study\media-related\ffmpeg\code\src\xcodec\xaudio_play.h(131): message :         [
+D:\study\media-related\ffmpeg\code\src\xcodec\xaudio_play.h(131): message :             _Ty=XData
+D:\study\media-related\ffmpeg\code\src\xcodec\xaudio_play.h(131): message :         ]
+D:\study\media-related\ffmpeg\code\src\xcodec\xaudio_play.h(132,17): warning C4251: “XAudioPlay::mux_”: class“std::mutex”需要有 dll 接口由 class“XAudioPlay”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+  xsdl.cpp
+D:\study\media-related\ffmpeg\code\src\xcodec\xaudio_play.h(104,1): warning C4244: “*=”: 从“float”转换到“int”，可能丢失数据
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(136,20): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\thread(25): message : 参见“std::thread”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(137,18): warning C4251: “XThread::m_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251: “XAVPacketList::pkts_”: class“std::list<AVPacket *,std::allocator<_Ty>>”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         with
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         [
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:             _Ty=AVPacket *
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         ]
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message : 参见“std::list<AVPacket *,std::allocator<_Ty>>”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         with
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         [
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :             _Ty=AVPacket *
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         ]
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(177,20): warning C4251: “XAVPacketList::mux_”: class“std::mutex”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xvideo_view.h(111,20): warning C4251: “XVideoView::mtx_”: class“std::mutex”需要有 dll 接口由 class“XVideoView”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xvideo_view.h(118,23): warning C4251: “XVideoView::ifs_”: class“std::basic_ifstream<char,std::char_traits<char>>”需要有 dll 接口由 class“XVideoView”的客户端使用
+  xtools.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\iosfwd(223): message : 参见“std::basic_ifstream<char,std::char_traits<char>>”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(136,20): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\thread(25): message : 参见“std::thread”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(137,18): warning C4251: “XThread::m_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251: “XAVPacketList::pkts_”: class“std::list<AVPacket *,std::allocator<_Ty>>”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         with
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         [
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:             _Ty=AVPacket *
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         ]
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message : 参见“std::list<AVPacket *,std::allocator<_Ty>>”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         with
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         [
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :             _Ty=AVPacket *
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         ]
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(177,20): warning C4251: “XAVPacketList::mux_”: class“std::mutex”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.cpp(42,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.cpp(45,55): warning C4018: “>=”: 有符号/无符号不匹配
+  xvideo_view.cpp
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.cpp(141,22): warning C4018: “>”: 有符号/无符号不匹配
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(136,20): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\thread(25): message : 参见“std::thread”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(137,18): warning C4251: “XThread::m_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251: “XAVPacketList::pkts_”: class“std::list<AVPacket *,std::allocator<_Ty>>”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         with
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         [
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:             _Ty=AVPacket *
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175,31): warning C4251:         ]
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message : 参见“std::list<AVPacket *,std::allocator<_Ty>>”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         with
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         [
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :             _Ty=AVPacket *
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(175): message :         ]
+D:\study\media-related\ffmpeg\code\src\xcodec\xtools.h(177,20): warning C4251: “XAVPacketList::mux_”: class“std::mutex”需要有 dll 接口由 class“XAVPacketList”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xvideo_view.h(111,20): warning C4251: “XVideoView::mtx_”: class“std::mutex”需要有 dll 接口由 class“XVideoView”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\mutex(83): message : 参见“std::mutex”的声明
+D:\study\media-related\ffmpeg\code\src\xcodec\xvideo_view.h(118,23): warning C4251: “XVideoView::ifs_”: class“std::basic_ifstream<char,std::char_traits<char>>”需要有 dll 接口由 class“XVideoView”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\iosfwd(223): message : 参见“std::basic_ifstream<char,std::char_traits<char>>”的声明
+D:\study\media-related\ffmpeg\code\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\study\media-related\ffmpeg\code\src\xcodec\xvideo_view.cpp(175,43): warning C4244: “初始化”: 从“double”转换到“unsigned int”，可能丢失数据
+    正在创建库 ..\..\lib\x86\xcodec.lib 和对象 ..\..\lib\x86\xcodec.exp
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 858 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  xcodec.vcxproj -> D:\study\media-related\ffmpeg\code\src\xcodec\..\..\bin\x86\xcodec.dll

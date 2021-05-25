@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/XViewer">
+        <file>img/webcam_icon_129436.ico</file>
+        <file>img/application_exit_icon_181084.png</file>
+        <file>img/webcam_icon_129436.png</file>
+        <file>img/window_maximize_icon_181228.png</file>
+        <file>img/window_minimize_icon_181229.png</file>
+        <file>img/window_restore_icon_181231.png</file>
+        <file>img/circularmirror_114596.png</file>
+        <file>img/pausebutton_120631.png</file>
+        <file>img/playbutton_120627.png</file>
+    </qresource>
+</RCC>
